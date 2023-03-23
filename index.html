@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <meta
+      name="keywords"
+      content="Vex, Silver Owl, Silver Owl Robotics, Robotics, Janit Janitor, Li Shi, Kian Kowsari"
+    />
+    <title>Silver Owl Robotics</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="banner">
+        <div id="monav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li>
+              <a onclick="monavLink1()">How to Join</p>
+              <div>
+                <a
+                  id="subnavlink1"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd8Z1kbKCAW_fdMeyMeZqrT7UKU5lm9EHww3KxwQ3vLowreHw/viewform?usp=sf_link"
+                  >Application Form</a
+                >
+              </div>
+            </li>
+            <li>
+              <a href="" onclick="monavLink2()">Become a Sponsor</a>
+              <div>
+                <a id="subnavlink2" href="Sponsor.html">About Sponsorships</a>
+                <a id="subnavlink3" href="https://forms.gle/HYopwHyfn2Wf9R256"
+                  >Sponsorship Application Form</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <header class="navbar">
+          <img
+            src="SOR Media Pack/Logos/silver owl robotics horizontal text logo-03.png"
+            alt="Logo of Silver Owl"
+            class="logo"
+          />
+          <img src="images/navbaricon.png" id="mobilenav" onclick="monav()" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li class="dropdown">
+              <a href="#">How to Join</a>
+              <div class="dropdown-content">
+                <a
+                  style="color: #376693"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd8Z1kbKCAW_fdMeyMeZqrT7UKU5lm9EHww3KxwQ3vLowreHw/viewform?usp=sf_link"
+                  >Application Form</a
+                >
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#contact">Become a Sponsor</a>
+              <div class="dropdown-content">
+                <a style="color: #376693" href="Sponsor.html"
+                  >About Sponsorships</a
+                >
+                <a
+                  style="color: #376693"
+                  href="https://forms.gle/HYopwHyfn2Wf9R256"
+                  >Sponsorship Application Form</a
+                >
+              </div>
+            </li>
+            <li><a href="Donate.html">Donate</a></li>
+          </ul>
+        </header>
+        <img src="images/silver owl.jpg" class="bg" />
+        <div class="homepage">
+          <h1>
+            Silver Owl
+            <span style="color: #60b1ff; font-family: bwbold">Robotics</span>
+          </h1>
+          <p style="color: white; font-family: bwmedium">
+            To Inspire, Educate, and Compete.
+          </p>
+        </div>
+      </div>
+      <div class="secondsection">
+        <h2>Reveal Video</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/nLwhPgLmOgs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="thirdsection">
+        <h2>Club Teams</h2>
+        <div class="teamContainer">
+          <section>
+            <img class="teamImgs" src="images/3150A2.png" />
+            <h3>3150A</h3>
+            This is currently the most skilled team consisting of members with
+            high amounts of experience. 3150A was also the first team officially
+            established in the organization when it first began in 2021.
+          </section>
+          <section>
+            <img class="teamImgs" src="images/3150M.png" />
+            <h3>3150M</h3>
+            This team consists of members with good amounts of experience or
+            skill. In the past VRC season, 3150M has regularly attended
+            competitions including the Ontario provincial championships.
+          </section>
+          <section>
+            <img class="teamImgs" src="images/3150K.png" />
+            <h3>3150K</h3>
+            This team is for members just joining the club. If members are able
+            to prove their skill level sufficient enough for higher level teams,
+            they will be moved accordingly. This team is more educational and
+            beginner friendly.
+          </section>
+          <section>
+            <img class="teamImgs" src="images/QuestionMark.png" />
+            <h3>Future Teams</h3>
+            For the next season, our organizations will likely develop more
+            teams to accomodate for a much larger number of members. We will
+            also expand beyond just participating in VRC. The new facets of our
+            club are explained in the section below.
+          </section>
+        </div>
+      </div>
+      <div class="secondsection" id="facets">
+        <div id="facet1">
+          <h2>VRC</h2>
+          <p>
+            Up until this point. Silver Owl Robotics has participated in the Vex
+            Robotics competition (VRC), which is held internationally.
+            Currently, we have three main teams for VRC which are all listed
+            above. These teams may be revamped or more may be added in the next
+            season to accomadate for a greater number of members joining.
+          </p>
+          <a href="https://www.vexrobotics.com/competition"
+            ><img src="images/vrc.png" alt="Logo of VRC"
+          /></a>
+        </div>
+        <div id="facet2">
+          <h2>FLL</h2>
+          <p>
+            the First LEGO League (FLL) challenge is an internationally scaled
+            robotics compeition for elementary and middle school students. Our
+            organization will be running teams to participate in the upcoming
+            FLL season for 2023-2024. This will be a great oppurtunity for young
+            aspiring STEM students to gain robotics and engineering experience
+            early on in their education.
+          </p>
+          <a href="https://www.firstlegoleague.org/"
+            ><img src="images/fll.png" alt="Logo of FLL"
+          /></a>
+        </div>
+        <div id="facet3">
+          <h2>VEX IQ</h2>
+          <p>
+            The VEX IQ Competition, presented by the Robotics Education &
+            Competition Foundation, provides elementary and middle school
+            students with exciting, open-ended robotics challenges that enhance
+            their science, technology, engineering, and mathematics (STEM)
+            skills through hands-on, student-centered learning. Silver Owl
+            Robotics will also be holding teams that wll participate in VEX IQ
+            compeitions for the next season.
+          </p>
+          <a href="https://roboticseducation.org/vex-iq-competition/"
+            ><img src="images/vex iq comp.png" alt="Logo of VEX IQ"
+          /></a>
+        </div>
+      </div>
+      <div class="secondsection">
+        <h2>Our Sponsors</h2>
+        <div class="underline"></div>
+        <div id="sponsor-container">
+          <a href="https://midexx.com/"
+            ><img src="images/MID.png" style="max-width: 40%" />
+          </a>
+          <a href="https://www.robosource.net/">
+            <img src="images/robosource.png" style="max-width: 40%" />
+          </a>
+        </div>
+        <h3 style="margin: 70px; font-size: 2em">
+          Interested in becoming a sponsor?
+        </h3>
+        <p style="margin-left: 70px; margin-top: -10px">
+          Fill out the
+          <a href="https://forms.gle/NCbGTwdRL6LDBGbSA"
+            >Sponsorship Application Form.</a
+          >
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <div style="border-right: 3px lightgrey solid">
+          <img src="images/3150-removebg-preview.png" />
+        </div>
+        <div style="border-right: 3px lightgrey solid">
+          <h5>Learn More</h5>
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">How to Join</a>
+          <a href="">Become a Sponsor</a>
+        </div>
+        <div style="border-right: 3px lightgrey solid" id="contact">
+          <h5>Contact</h5>
+          <a href="https://www.instagram.com/silverowl.vrc/">3150A Instagram</a>
+          <a href="https://www.instagram.com/3150m_silver.falcon/"
+            >3150M Instagram</a
+          >
+          <a href="mailto:silverowlrobotics@gmail.com">Email Us</a>
+          <a href="">Discord (coming soon)</a>
+        </div>
+        <div>
+          <img
+            src="images/vex logo.png"
+            style="height: 45%; display: block; margin: 0px 0 10px 0"
+          />
+          <img
+            src="images/FIRST_logo.png"
+            style="height: 45%; display: block; margin: 10px 0 9px 30px"
+          />
+        </div>
+      </div>
+      <p>
+        Website made by:
+        <a href="About.html#nesh" style="display: inline">Kian</a>
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script>
+      var images = document.getElementsByClassName("bg");
+      new simpleParallax(images, {
+        scale: 1.2,
+      });
+    </script>
+    <script>
+      ScrollOut({
+        targets: "h1, h2, p, img",
+        once: true,
+        threshold: 0.2,
+      });
+    </script>
+    <script>
+      function monav() {
+        var x = document.getElementById("monav");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function monavLink1() {
+        var y = document.getElementById("subnavlink1");
+        if (y.style.display === "none") {
+          y.style.display = "block";
+        } else {
+          y.style.display = "none";
+        }
+      }
+
+      function monavLink2() {
+        var y = document.getElementById("subnavlink2");
+        var z = document.getElementById("subnavlink3");
+        if (y.style.display === "none") {
+          y.style.display = "block";
+        } else {
+          y.style.display = "none";
+        }
+
+        if (z.style.display === "none") {
+          z.style.display = "block";
+        } else {
+          z.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
